@@ -108,27 +108,7 @@ https://colab.research.google.com/drive/1KkQsWDvOlRBYx-EcyT6YFz5yfDBs4gf6?usp=sh
 
 -Preparar documentação técnica do sistema, incluindo os diagramas UML criados ao longo do projeto. 
 
--Entregar o sistema aos stakeholders e apresentar o projeto, destacando a importância da arquitetura e gestão para o desenvolvimento bem-sucedido do software 
-
- 
-
-Projeto realizado pelos Stakeholders: 
-
-Pedro Henrique Resende Menezes: Analista de Sistemas 
-
-Emmanuel: Gestor de projeto 
-
- 
-
-A proposta é desenvolver um aplicativo bibliotecário universitário para reserva e renovação de livros emprestados do acervo disponibilizado pela instituição. Permite acesso e usos personalizados tanto ao público alvo de alunos e professores (subentendidos como “Usuários”), quanto aos funcionários (ou “Administradores”) contratados para usar tal sistema. 
-
-As funcionalidades do programa foram desenvolvidas com o propósito de além do cadastro e login dos usuários, permitir também que os mesmos: vejam a lista de livros disponibilizados, reservar unidades como empréstimo e renovar tal tempo cedido com o livro através de seu perfil. Enquanto isso, os Administradores são igualmente capazes de verem o acervo de livros (sobretudo os disponíveis ou não) e capaz de adicionar exemplares à lista de livros disponíveis.  
-
-Suas utilidades foram estruturadas através do estilo arquitetural “REST”. Sua escolha se deve da flexibilidade desse método de permitir que diferentes processos (como bancos de dados, APIs e métodos) funcionem independente um do outro. Permitindo assim o manuseio de cada componente sem que um afete o outro. Ou seja, devido os diferentes requisitos do sistema, que naturalmente, não dependem de pequenos serviços para alcançar suas demais funções. 
-
-Tal arquitetura é válida para o sucesso do projeto ao permitir uma recursividade maior de seus processos. A exemplo está seus demais processos de apenas adição e exibição de dados, sem que eles precisem passar por alguma espécie de tratamento, logo serviços que dependam um dos outros não se encaixam no perfil apresentado em questão. Desse modo, a independência de seus processos é o que permite um desenvolvimento aliado a tecnologias mais apropriadas ao caso de uso.  
-
-Concluímos que através da gestão e conhecimento desenvolvidos ao longo do projeto foi possível concluir a execução de sua proposta. Mesmo atrelado aos recursos disponíveis como tempo de entrega, experiência na linguagem de programação escolhida e funcionalidades da API utilizada, o resultado foi agradado quanto as funcionalidades então propostas. Futuros aperfeiçoamentos poderão ser feitos, como a inclusão de um Banco de Dados e o aprofundamento de outras funções da Google Books API nas funcionalidades do sistema. Porém, mesmo sem esses demais recursos, o sistema está totalmente operável e funcional, mostrando assim como sua arquitetura REST foi útil em sua construção. 
+-Entregar o sistema aos stakeholders e apresentar o projeto, destacando a importância da arquitetura e gestão para o desenvolvimento bem-sucedido do software
 
  
 
