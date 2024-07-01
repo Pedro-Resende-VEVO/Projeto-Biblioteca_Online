@@ -11,7 +11,7 @@ Biblioteca de livros disponíveis, Biblioteca de usuários, Books API
 . Funcionais: viabilizar o cadastro, login, visualização de livros disponíveis, reserva de exemplares para empréstimo e capacidade de adicionar exemplares à lista de livros .disponíveis. 
 . Não funcionais: Capacidade de manutenção, escalabilidade, Google Book API e interoperabilidade entre sistema e usuário.
 ### Criar diagramas de caso de uso para representar as principais funcionalidades do sistema.
-//img
+/img/func.jpg
 
 ## Fase 2: Escolha do Estilo Arquitetural
 ### Estilo arquitetural: 
@@ -21,15 +21,15 @@ REST (Representational State Transfer), um esquilo que fornece padrões entre si
 Baseado na escolha do estilo arquitetural, criar diagramas de arquitetura (por exemplo, diagramas de componentes, diagramas de implantação) para ilustrar a estrutura geral do sistema:
 
 . Perfil 
-    . 	Renovar empréstimo
-    .	Ver informações do Usuário
+    -Renovar empréstimo
+    -Ver informações do Usuário
 
 . Consultar acervo de livros
-    .	Ver detalhes do livro
-    .	Reservar exemplares
+    -Ver detalhes do livro
+    -Reservar exemplares
 
 . Realizar o cadastro de livros
-    .	Inserir informações requisitos e enviar
+    -Inserir informações requisitos e enviar
 
 
 ## Fase 4: Implementação do MVP (Minimum Viable Product)
@@ -38,11 +38,11 @@ Baseado na escolha do estilo arquitetural, criar diagramas de arquitetura (por e
 
 De classe:
 
-img
+/img/UMLclass.jpg
 
 De processo:
 
-img
+/img/UMLprocess.jpg
 
 ## Fase 5: Documentação e Entrega
 
